@@ -1,6 +1,6 @@
-import pokeApiImage from '../assets/Proyecto PokeApi.png';
-import portafolioWebImage from '../assets/Proyecto Portafolio.png';
-import pdmImage from '../assets/Proyecto PDM.png';
+import pokeApiImage from '../assets/Proyecto_PokeApi.webp';
+import portafolioWebImage from '../assets/Proyecto_Portafolio_Web.webp';
+import pdmImage from '../assets/Proyecto_PDM.webp';
 const projects = [
  {
     id: 1,

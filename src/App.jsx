@@ -1,18 +1,13 @@
 import React from 'react';
-import NavBar from './components/organisms/navbar.jsx';
-import Hero  from './components/organisms/hero.jsx'
+import NavBar from './components/navbar.jsx';
+import Hero  from './components/hero.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Projects from './components/organisms/projects.jsx';
-import Footer from './components/organisms/footer.jsx';
-
 
 function App() {
   return (
     <>
       <NavBar />
       <Hero />
-      <Projects />
-      <Footer/>
     </>
   );
 }

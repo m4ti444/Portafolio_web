@@ -1,5 +1,5 @@
 import pokeApiImage from '../assets/Proyecto_PokeApi.webp';
-import portafolioWebImage from '../assets/Proyecto_Portafolio_Web.webp';
+import portafolioWebImage from '../assets/Proyecto_Portafolio_web.webp';
 import pdmImage from '../assets/Proyecto_PDM.webp';
 const projects = [
  {

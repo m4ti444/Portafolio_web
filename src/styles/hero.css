@@ -1,9 +1,25 @@
 .hero-background{
-    background: linear-gradient(to right, #939393, #0b3a69);
+    background: linear-gradient(to right, #000000, #323232);
     color: #ffffff;
     min-height: 100vh;
     display: flex;
     align-items: center;
+    position: sticky;
+}
+
+.hero-info{
+    color: #a4b5c6;
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+.hero-tittle{
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    background: linear-gradient(45deg, #0099ff, #06326c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .social-icon {
@@ -20,8 +36,18 @@
 }
 
 .social-icon:hover {
-    background: #000000 !important ;
+    background: linear-gradient(45deg, #0099ff, #06326c) !important ;
     transform: translateY(-3px);
     color: #ffffff !important;
+}
+
+.hero-gif {
+    max-width: 150px; 
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;   
+    margin: 20px auto;
+    border: 3px solid #3498db;
 }
 

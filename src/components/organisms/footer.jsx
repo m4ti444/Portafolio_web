@@ -6,13 +6,13 @@ import { FaTelegramPlane } from "react-icons/fa";
 
 function Footer() {
     return (
-        <footer class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 footer-section">
-                        <div class="footer-logo">Portafolio</div>
-                        <p class="footer-about">El proposito de esta pagina es el que puedas acceder a mis proyectos como estudiante de Ingenieria en Informatica.</p>
-                        <div class="social-links">
+        <footer className="footer">
+            <div className="container">
+                <div className="row">
+                    <div className="col-lg-4 footer-section">
+                        <div className="footer-logo">Portafolio</div>
+                        <p className="footer-about">El proposito de esta pagina es el que puedas acceder a mis proyectos como estudiante de Ingenieria en Informatica.</p>
+                        <div className="social-links">
                             <a className="social-icon" 
                             href="https://cl.linkedin.com/"
                             target="_blank"
@@ -30,20 +30,17 @@ function Footer() {
                         </div>
                     </div>
 
-                    <div class="col-lg-2 col-md-6 footer-section">
+                    <div className="col-lg-2 col-md-6 footer-section">
                         <h5>Quick Links</h5>
-                        <ul class="footer-links">
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Products</a></li>
-                            <li><a href="#">Contact</a></li>
-                            <li><a href="#">Careers</a></li>
+                        <ul className="footer-links">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Projects</a></li>
                         </ul>
                     </div>
 
-                    <div class="col-lg-2 col-md-6 footer-section">
+                    <div className="col-lg-2 col-md-6 footer-section">
                         <h5>Support</h5>
-                        <ul class="footer-links">
+                        <ul className="footer-links">
                             <li><a href="#">FAQ</a></li>
                             <li><a href="#">Help Center</a></li>
                             <li><a href="#">Privacy Policy</a></li>
@@ -52,20 +49,20 @@ function Footer() {
                         </ul>
                     </div>
 
-                    <div class="col-lg-4 footer-section">
+                    <div className="col-lg-4 footer-section">
                         <h5>Newsletter</h5>
-                        <p class="footer-about">Subscribe to our newsletter for updates, news, and exclusive offers.</p>
-                        <div class="footer-newsletter">
+                        <p className="footer-about">Subscribe to our newsletter for updates, news, and exclusive offers.</p>
+                        <div className="footer-newsletter">
                             <input type="email" placeholder="Enter your email"/>
-                            <button class="newsletter-btn">
-                                <i class="button-icon"><FaTelegramPlane /></i>
+                            <button className="newsletter-btn">
+                                <i className="button-icon"><FaTelegramPlane /></i>
                             </button>
                         </div>
                     </div>
                 </div>
 
-                <div class="footer-bottom">
-                    <ul class="footer-bottom-links">
+                <div className="footer-bottom">
+                    <ul className="footer-bottom-links">
                         <li><a href="#">Privacy Policy</a></li>
                         <li><a href="#">Terms of Service</a></li>
                         <li><a href="#">Cookie Policy</a></li>

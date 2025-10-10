@@ -3,6 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { FaGithub } from 'react-icons/fa';
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
+import shrekGif from '../../assets/shrek.gif'; 
 
 function HeroSection() {
   return (
@@ -11,9 +12,15 @@ function HeroSection() {
         <Row className="mt-4 justify-content-center text-center text-black">
           <Col md={8}>
             <div className='hero-section'>
-              <h1 className="display-4">Matias Flores</h1>
+              <img 
+                src={shrekGif} 
+                alt="Shrek imagen" 
+                className="hero-gif"
+                style={{ maxWidth: '150px', margin: '20px auto', display: 'block' }}
+              />
+              <div className="hero-tittle">Matias Flores</div>
               <p className="hero-info">
-                Navega y descubre los proyectos de este estudiante de Ing. en Informática.
+                Navega y descubre mis proyectos como estudiante de Ing. en Informática.
               </p>
             </div>
             

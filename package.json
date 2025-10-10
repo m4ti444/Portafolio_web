@@ -4,13 +4,9 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  
-  "engines": {
-  "node": ">=18.0.0" 
-  },
   "scripts": {
     "dev": "vite",
-    "build": "npx vite build",
+    "build": "chmod +x node_modules/.bin/vite && npx vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },

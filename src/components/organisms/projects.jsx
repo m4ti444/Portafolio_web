@@ -1,29 +1,26 @@
 import '../../styles/projects.css'
+import projects from '../../data/projects.js'
 
 function Projects() {
     return(
-        <div classname="project-section">
+        <div id="projects-section" className="project-section " >
             <div className="row">
-                <div className="col-sm-6">
-                    <div className="card" >
-                        <img className="card-img-top" src="https://wallpapercave.com/wp/wp13819753.jpg" alt="Card image cap"/>
-                        <div className="card-body">
-                            <h5 className="card-title">Special title treatment</h5>
-                            <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" className="btn btn-primary">Go somewhere</a>
+                {projects.map((project) => (
+                    <div className="col-sm-4" key={project.id}>
+                        <div className="card" >
+                            <img className="card-img-top" src={project.image}  alt={'Imagen de ${project.name}'}/>
+                            <div className="card-body">
+                                <h5 className="card-title">{project.name}</h5>
+                                <p className="card-description">{project.description}</p>
+                                <p className='card-text'>Tecnologías: {project.software.join(', ')}</p>
+                                <a className="btn btn-primary"
+                                href={project.link} 
+                                target="_blank"
+                                rel="noopener noreferrer">Ver en Github</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div className="col-sm-6">
-                    <div className="card">
-                        <img className="card-img-top" src="https://wallpapercave.com/wp/wp13819753.jpg" alt="Card image cap"/>
-                        <div className="card-body">
-                            <h5 className="card-title">Special title treatment</h5>
-                            <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" className="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
+                ))}
             </div>
         </div>
     );

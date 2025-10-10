@@ -1,0 +1,54 @@
+.project-section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    background: linear-gradient(to right, #383838, #7c7c7c);
+}
+
+.card {
+    background: linear-gradient(to right, #000000, #323232);
+    border: 1px solid #0077ff;
+    box-shadow:0 0 15px rgb(129, 129, 129);
+    height: 500px;
+    overflow: hidden;
+    max-width: 450px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.card:hover{
+    background: linear-gradient(45deg, #323232, #000000) !important ;
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 250px;
+}
+
+.card-body {
+    color: #a4b5c6;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+    margin-bottom: 20px;
+    background: linear-gradient(45deg, #0099ff, #06326c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;   
+}
+
+.card-description{
+    flex-grow: 1;
+    display: -webkit-box; 
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-body .btn {
+    margin-top: auto; 
+}

@@ -8,8 +8,8 @@ function NavBar() {
         <Container>
           <Navbar.Brand href="#home">Portafolio</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#projects">Projects</Nav.Link>
+            <Nav.Link href="#hero">Home</Nav.Link>
+            <Nav.Link href="#projects-section">Projects</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

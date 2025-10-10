@@ -1,4 +1,3 @@
-import React from 'react';
 import NavBar from './components/organisms/navbar.jsx';
 import Hero  from './components/organisms/hero.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css';

@@ -7,7 +7,7 @@ import shrekGif from '../../assets/shrek.gif';
 
 function HeroSection() {
   return (
-    <div className="hero-background">
+    <div id="hero" className="hero-background">
       <Container>
         <Row className="mt-4 justify-content-center text-center text-black">
           <Col md={8}>

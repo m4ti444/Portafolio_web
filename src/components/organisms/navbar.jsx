@@ -10,6 +10,7 @@ function NavBar() {
           <Nav className="me-auto">
             <Nav.Link href="#hero">Home</Nav.Link>
             <Nav.Link href="#projects-section">Projects</Nav.Link>
+            <Nav.Link href="#news-section">News</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

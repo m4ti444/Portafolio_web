@@ -35,6 +35,7 @@ function Footer() {
                         <ul className="footer-links">
                             <li><a href="#hero">Home</a></li>
                             <li><a href="#projects-section">Projects</a></li>
+                            <li><a href="#news-section">News</a></li>
                         </ul>
                     </div>
 

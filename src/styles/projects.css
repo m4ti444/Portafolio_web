@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center; 
-    background: linear-gradient(to right, #383838, #7c7c7c);
+    background: linear-gradient(to right, #383838, #323232);
 }
 
 .card {
@@ -33,7 +33,7 @@
     flex-direction: column;
 }
 
-.card-title {
+.projects-card-title {
     margin-bottom: 20px;
     background: linear-gradient(45deg, #0099ff, #06326c);
     -webkit-background-clip: text;

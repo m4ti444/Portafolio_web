@@ -10,7 +10,7 @@ function News() {
                     <div className="col-sm-4" key={news.id}>
                         <div className="news-card" >
                             <div className="news-body">
-                                <h5 className="card-title">{news.name}</h5>
+                                <h5 className="news-card-title">{news.name}</h5>
                                 <p className="card-description">{news.description}</p>
                                 <a className="btn btn-primary"
                                 href={news.link} 

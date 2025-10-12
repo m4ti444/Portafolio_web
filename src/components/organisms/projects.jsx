@@ -10,7 +10,7 @@ function Projects() {
                         <div className="card" >
                             <img className="card-img-top" src={project.image}  alt={'Imagen de ${project.name}'}/>
                             <div className="card-body">
-                                <h5 className="card-title">{project.name}</h5>
+                                <h5 className="projects-card-title">{project.name}</h5>
                                 <p className="card-description">{project.description}</p>
                                 <p className='card-text'>Tecnologías: {project.software.join(', ')}</p>
                                 <a className="btn btn-primary"

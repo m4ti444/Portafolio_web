@@ -1,16 +1,65 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Portafolio Web
 
-Currently, two official plugins are available:
+**Portafolio Web** este es un proyecto personal desarrollado usando **React + Vite**, con el objetivo de mostrar en una pagina web mis trabajos de forma profesional.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Demo en vivo**: https://portafolio-web-tau-three.vercel.app  
+**Repositorio**: https://github.com/m4ti444/Portafolio_web
 
-## React Compiler
+## Tecnologías utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React**
+- **Vite**
+- **JavaScript / JSX / CSS / HTML**
+- **ESLint**
 
-## Expanding the ESLint configuration
+## Estructura del proyecto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+/
+├── public/            # Archivos estáticos (imágenes, favicon, etc.)
+├── src/               # Código fuente principal
+│   ├── components/    # Componentes React reutilizables
+│   ├── pages/         # Páginas o vistas del portafolio
+│   ├── assets/        # Imágenes, íconos, estilos
+│   ├── App.jsx        # Componente principal
+│   └── main.jsx       # Punto de entrada de React
+├── node_modules/      # Dependencias del proyecto
+├── package.json       # Dependencias, scripts y configuración
+├── vite.config.js     # Configuración específica de Vite
+├── eslint.config.js   # Reglas de linting
+└── README.md           # Este archivo
+
+## Instalación y ejecución
+
+1. Clonar el repositorio  
+   ```bash
+   git clone https://github.com/m4ti444/Portafolio_web.git
+   ```
+
+2. Entrar al directorio del proyecto  
+   ```bash
+   cd Portafolio_web
+   ```
+
+3. Instalar dependencias  
+   ```bash
+   npm install
+   ```
+
+4. Levantar el servidor de desarrollo  
+   ```bash
+   npm run dev
+   ```
+
+5. (Opcional) Generar el build de producción  
+   ```bash
+   npm run build
+
+## Características
+
+- Landing page con presentación profesional   
+- Muestra de proyectos con imágenes, descripciones y links
+- Diseño responsivo (mobile y desktop)  
+- Enlaces de contacto y redes sociales
+

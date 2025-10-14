@@ -38,36 +38,6 @@ function Footer() {
                             <li><a href="#news-section">News</a></li>
                         </ul>
                     </div>
-
-                    <div className="col-lg-2 col-md-6 footer-section">
-                        <h5>Support</h5>
-                        <ul className="footer-links">
-                            <li><a href="#">FAQ</a></li>
-                            <li><a href="#">Help Center</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Terms of Service</a></li>
-                            <li><a href="#">Contact Support</a></li>
-                        </ul>
-                    </div>
-
-                    <div className="col-lg-4 footer-section">
-                        <h5>Newsletter</h5>
-                        <p className="footer-about">Subscribe to our newsletter for updates, news, and exclusive offers.</p>
-                        <div className="footer-newsletter">
-                            <input type="email" placeholder="Enter your email"/>
-                            <button className="newsletter-btn">
-                                <i className="button-icon"><FaTelegramPlane /></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="footer-bottom">
-                    <ul className="footer-bottom-links">
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Terms of Service</a></li>
-                        <li><a href="#">Cookie Policy</a></li>
-                    </ul>
                     <p>© 2025 Portafolio. All rights reserved.</p>
                 </div>
             </div>
